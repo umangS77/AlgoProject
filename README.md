@@ -13,32 +13,29 @@
 
 Electricity companies face a lot of issues regarding the efficient power supply to all their
 customers as well as the customers have issues regarding their needs of power especially
-during peak hours.
+during peak hours.  
 Our aim is to develop and implement algorithms to improve this situation and implement
 better, renewable resources for generation of electricity at household level (two way
-transmission).
+transmission).  
 For companies to increase their profit margin, we implemented dynamic pricing.
 
 ### SUGGESTIONS BY PROFESSOR AND MENTOR
 
-● Develop a dynamic pricing model
+● Develop a dynamic pricing model  
 ● Develop a two-way electricity distribution model where the consumer can also supply in
-specific scenarios
+specific scenarios  
 
 ### CHALLENGES
 
-1. Clustering of Houses
-2. Load Shedding
-3. Static and Dynamic Pricing
-4. Two-way electricity Distribution
+1. Clustering of Houses  
+2. Load Shedding  
+3. Static and Dynamic Pricing  
+4. Two-way electricity Distribution  
 
 
 ## Clustering of Houses
 
-Most of the residential colonies and areas in India are scattered and don't follow a specific
-distribution, while western countries have a well planned city layout and structure. Hence it
-becomes a problem in India to cluster houses in an area which follows a specific pattern of
-electricity consumption.
+Most of the residential colonies and areas in India are scattered and don't follow a specific distribution, while western countries have a well planned city layout and structure. Hence it becomes a problem in India to cluster houses in an area which follows a specific pattern of electricity consumption.
 
 ### GOAL
 
@@ -53,12 +50,12 @@ each data point belongs to only one group. We categorize these houses into group
 
 ### DESIGN
 
-The algorithm works as follows:
-● First we initialize k points, called means, randomly.
+The algorithm works as follows:  
+● First we initialize k points, called means, randomly.  
 ● We categorize each item to its closest mean and we update the mean’s coordinates,
-which are the averages of the items categorized in that mean so far.
+which are the averages of the items categorized in that mean so far.  
 ● We repeat the process for a given number of iterations and at the end, we have our
-clusters
+clusters  
 
 ## Load Shedding
 
@@ -72,7 +69,7 @@ powers of localities. Can we find mathematical ways to find localities to manage
 
 ### GOALS
 
-● Finding an algorithm which helps in solving the above mentioned problem.
+● Finding an algorithm which helps in solving the above mentioned problem.  
 ● Making the algorithm work for the clusters of houses so that load shedding can be
 done.
 
@@ -102,7 +99,7 @@ demands as different topography has different consumption patterns.
 
 ### GOALS
 
-● Develop 2 pricing models: Static and Dynamic.
+● Develop 2 pricing models: Static and Dynamic.  
 ● Base the pricing on the consumption pattern of a cluster rather than a fixed slab.
 
 ### SOLUTION
@@ -126,7 +123,7 @@ wastage and pollution that occurs during production of electricity.
 ### GOALS
 
 ● Develop a two-way electricity distribution system where the consumer itself can produce
-electricity.
+electricity.  
 ● Implement futuristic methods of production of electricity.
 
 ### SOLUTION
